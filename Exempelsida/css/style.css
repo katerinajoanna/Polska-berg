@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+.page {
+    width: 1000px;
+    background-color: rgb(192, 193, 186);
+    margin: auto;
+}
+
+.page__nav {
+    width: 100%;
+    background-color: rgb(76, 137, 137);
+    height: 48px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.page__nav i {
+    padding-left: 10rem;
+    font-size: 23px;
+
+}
+
+.page__nav h2 {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(11, 29, 46);
+    text-shadow: 2px 2px 4px rgb(80, 98, 117);
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 38px;
+    background-color: rgb(181, 181, 88);
+}
+
+.header__list a {
+    margin: 3px;
+    text-decoration: none;
+    color: rgb(57, 57, 91);
+}
+
+.header__list a:hover {
+    color: rgb(35, 105, 60);
+    text-decoration: none;
+}
+
+.header__top {
+    background-image: url('https://img.freepik.com/darmowe-zdjecie/piekne-ujecie-szczytu-gory_181624-21611.jpg?w=900&t=st=1704278506~exp=1704279106~hmac=7101a3eb07f8001435f3d3fcd36d6e76db7db1823995373b40e1efe0eb5c9dbf');
+
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.header__text {
+    font-size: 1.8rem;
+
+}
+
+.header__button button {
+    border: 3px solid rgb(26, 44, 112);
+    border-radius: 1rem;
+    padding: .8rem;
+    font-weight: 700;
+    color: rgb(49, 77, 122);
+}
+
+.header__button button:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.aside__left {
+    background-color: rgb(203, 87, 87);
+    font-size: 14px;
+    text-indent: 10px;
+}
+
+.right__graphiks img {
+    width: 100%;
+    height: 17rem;
+}
+
+.aside__right {
+    background-color: rgba(17, 113, 17, 0.393);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.aside__left h3,
+.aside__left p,
+.right__text h4,
+.right__text p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.aside__left h3,
+.aside__right h3 {
+    text-align: center;
+}
+
+.aside__right button {
+    padding: 10px;
+    margin-left: 13rem;
+    margin-top: 4rem;
+    border-radius: .5rem;
+}
+
+.grid img {
+    width: 100%;
+    height: 80%;
+}
+
+.grid__cardone {
+    max-width: 1000px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.grid__cardtwo {
+    max-width: 1000px;
+    margin: 1rem auto;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(148, 159, 168);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(34, 81, 19);
+
+}
+
+.footer a,
+.fa-brands,
+.fa-solid {
+    display: flex;
+    flex-direction: column;
+    color: rgb(20, 77, 20);
+    padding: 3px;
+    text-decoration: none;
+}
